@@ -3,9 +3,9 @@
 #include <string.h>
 
 /*
- * _strlen - return the length of string
+ *_strlen - return the length of string
  *@s: string paramter pointer input
- * return length
+ *return length
 */
 
 int _strlen(char *s)
