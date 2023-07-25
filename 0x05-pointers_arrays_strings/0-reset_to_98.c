@@ -1,7 +1,7 @@
 #include "main.h"
- /*main - set the value of n bby using the pointer
-  *
-  * return always 0
+ /* reset_to_98 - set the value of n b using the pointer
+  * @str: string paramter to print
+  * Return Nothing
   */
 
 void reset_to_98(int *n)
