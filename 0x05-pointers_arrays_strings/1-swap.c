@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *  swap_int- swap the value of a and b using the pointer
- * @a,n: string paramter to print
+ *  swap_int - swap the value of a and b using the pointer
+ * @a: input paramter 1
+ * @b: input paramter 2
  * Return Nothing
 */
 
