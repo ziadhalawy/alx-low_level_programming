@@ -1,8 +1,10 @@
 #include "main.h"
- /*main - swap the value of a to b using the pointer
-  *
-  * return always 0
-  */
+/**
+ *  swap_int- swap the value of a and b using the pointer
+ * @a,n: string paramter to print
+ * Return Nothing
+*/
+
 
 void swap_int(int *a, int *b)
 {
