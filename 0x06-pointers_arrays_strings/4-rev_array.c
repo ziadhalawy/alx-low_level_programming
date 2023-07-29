@@ -1,9 +1,10 @@
 #include "main.h"
 
-/*
- * reverse_array - prog to reverse array
- * @*a: input pointer
- * @n: second input
+/**
+ * reverse_array - reverse array of integers
+ * @a: array
+ * @n: number of elements of array
+ *
  * Return: void
  */
 

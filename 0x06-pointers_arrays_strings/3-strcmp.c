@@ -1,10 +1,11 @@
 #include "main.h"
 
-/*
- * _strcmp - prog to compare two strings
- * @*s1: input pointer
- * @*s2: second string
- * Return: Return: s1[i] - s2[i]
+#include "main.h"
+/**
+ * _strcmp - compare string values
+ * @s1: input value
+ * @s2: input value
+ * Return: s1[i] - s2[i]
  */
 
 int _strcmp(char *s1, char *s2)
