@@ -1,11 +1,11 @@
 #include "main.h"
 
-/*
- * *_strcat - function that concatenates two function
- * @*dest: char input
- * @*src: char input pointer
+/**
+ * _strcat - function that concatenates two function
+ * @dest: char input
+ * @src: char input pointer
  * Return: pointer value
-*/
+ */
 
 char *_strcat(char *dest, char *src)
 {
