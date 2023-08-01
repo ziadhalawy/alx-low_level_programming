@@ -1,11 +1,9 @@
 #include "main.h"
-
-/*
+/**
  * _strpbrk - Entry point
- * @s: input buffer
- * @accept: input values to check from
- *
- * Return: char
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
  */
 
 char *_strpbrk(char *s, char *accept)
