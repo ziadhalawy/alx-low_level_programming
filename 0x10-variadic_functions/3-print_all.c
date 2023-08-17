@@ -1,9 +1,8 @@
 #include "variadic_functions.h"
 
 /**
- * print_strings - Prints numbers, followed by a new line.
- * @separator: The string to be printed between numbers.
- * @n: The number of integers passed to the function.
+ * print_all - Prints every thing followed by new line.
+ * @format: The thing to be printed .
  * @...: A variable number of numbers to be printed.
  */
 void print_all(const char * const format, ...)
@@ -17,23 +16,23 @@ void print_all(const char * const format, ...)
 	{
 		while (format[i])
 		{
-			switch(format[i])
+			switch (format[i])
 			{
 				case 'c':
 					printf("%s%c", sep, va_arg(ls, int));
 					break;
-                                case 'i':
-                                        printf("%s%d", sep, va_arg(ls, int));
-                                        break;
-                                case 'f':
-                                        printf("%s%f", sep, va_arg(ls, double));
-                                        break;
-                                case 's':
+				case 'i':
+					printf("%s%d", sep, va_arg(ls, int));
+					break;
+				case 'f':
+					printf("%s%f", sep, va_arg(ls, double));
+					break;
+				case 's':
 					str = va_arg(ls, char *);
-                                       if (!str)
-					       str = "(nil)";
-				       	printf("%s%s", sep, str);
-                                        break;
+					if (!str)
+						str = "(nil)";
+					printf("%s%s", sep, str);
+					break;
 				default:
 					i++;
 					continue;
@@ -41,11 +40,7 @@ void print_all(const char * const format, ...)
 			sep = ", ";
 			i++;
 		}
-
-
 	}
-
-
 	printf("\n");
 	va_end(ls);
 
